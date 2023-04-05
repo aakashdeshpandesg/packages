@@ -6,6 +6,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/${{ github.repository_owner }}"
   },
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
