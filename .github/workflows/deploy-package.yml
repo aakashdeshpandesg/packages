@@ -16,7 +16,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: aakashdeshpandesg
       - name: Authenticate with GitHub Package Registry
-        run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.MY_TOKEN }}" >> ~/.npmrc
+       # run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.MY_TOKEN }}" >> ~/.npmrc
       - name: Install dependencies
         run: npm install
       - name: Build package
