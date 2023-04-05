@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-telemetry",
+  "name": "packages",
   "version": "1.0.6",
   "description": "tracing and logging using aws distro for opentelemetry",
   "main": "dist/index.js",
